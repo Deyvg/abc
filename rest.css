@@ -54,6 +54,7 @@ body
     width: 30px;
     font-size: 23vh;
     margin-bottom: 60vh;
+    color: #FF9BD2;
 
 }
 .center-left{
@@ -64,6 +65,7 @@ body
     width: 30px;
     font-size: 22vh;
     margin-bottom: 60vh;
+    color: #FF9BD2;
 
 }
 h1{
@@ -71,6 +73,7 @@ h1{
     font-family:sans-serif;
     font-size: 55px;
     margin-left: -23%;
+    color: #FF9BD2;
 }
 button {
     border: none;

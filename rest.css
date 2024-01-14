@@ -167,7 +167,7 @@ button {
     font-size: 70px;
     margin-bottom: 30vh;
     transform: rotate(90deg);
-
+    color: #FF9BD2;
 }
 .center-left{
     margin-left: -10%;
@@ -177,6 +177,7 @@ button {
     font-size: 70px;
     margin-bottom: -3vh;
     transform: rotate(90deg);
+    color: #FF9BD2;
 }
 .h{
     margin-bottom:66px;
@@ -184,6 +185,7 @@ button {
     font-size: 25px;
     margin-left: -60%;
     transform: rotate(90deg);
+    color: #FF9BD2;
 }
 button {
     border: none;

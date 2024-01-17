@@ -218,4 +218,56 @@ button {
     margin-left:16%;
   }
 
+ .container
+  {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+  }
+  
+  .bubbles
+{
+    position: absolute;
+    display: flex;
+    transform: rotate(90deg);
+}
+
+.bubbles span
+{
+    position: relative;
+    width: 2px;
+    height: 2px;
+    background: aqua;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #4fc3dc44,
+    0 0 2px #4fc3dc,
+    0 0 2px #4fc3dc;
+    animation: animate 15s linear infinite;
+    /* transform: rotate(90deg); */
+    animation-duration: calc(150s / var(--i));
+
+}
+
+.bubbles span:nth-child(even)
+{
+    background: #D80032;
+    box-shadow: 0 0 0 2px #ff2d75,
+    0 0 3px #D80032,
+    0 0 2px #D80032;
+}
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+
 }

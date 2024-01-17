@@ -130,6 +130,9 @@ button {
     0%{
         transform: rotate(47deg) scale(1.3);
     }
+    50%{
+        transform: rotate(47deg) scale(1.6);
+    }
 }
 .heart:before{
     content: '';
